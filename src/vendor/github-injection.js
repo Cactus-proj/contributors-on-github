@@ -1,4 +1,5 @@
-// https://github.com/octo-linker/injection 1.1.0 (2022-07-13)
+// https://github.com/OctoLinker/injection/blob/7f7a8e40ed45f824de890acd7f1eb37c0e1799a8/index.js
+//  v1.1.0 (2022-07-13)
 'use strict';
 
 const gitHubInjection = cb => {
