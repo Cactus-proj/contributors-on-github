@@ -191,7 +191,7 @@ function makeUpdateLabel(time) {
 function issueOrPrLink(type, repoPath, contributor) {
   let end = `${
     type === "pr" ? "pulls" : "issues"
-  }?utf8=%E2%9C%93&q=is:both+is:${type}+author:${contributor}`;
+  }?utf8=%E2%9C%93&q=is:${type}+author:${contributor}`;
 
   // repo
   if (repoPath.split("/").length === 2) {
